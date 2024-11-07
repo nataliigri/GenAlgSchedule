@@ -1,0 +1,409 @@
+[
+	{
+		"prof": {
+			"id": 1,
+			"name": "Artem"
+		}
+	},
+	{
+		"prof": {
+			"id": 2,
+			"name": "Olena"
+		}
+	},
+	{
+		"prof": {
+			"id": 3,
+			"name": "Lyudmula"
+		}
+	},
+	{
+		"prof": {
+			"id": 4,
+			"name": "Andriy"
+		}
+	},
+	{
+		"prof": {
+			"id": 5,
+			"name": "Anton"
+		}
+	},
+	{
+		"prof": {
+			"id": 6,
+			"name": "Nataliia"
+		}
+	},
+	{
+		"prof": {
+			"id": 7,
+			"name": "Pavlo"
+		}
+	},
+	{
+		"prof": {
+			"id": 8,
+			"name": "Oleksandr"
+		}
+	},
+	{
+		"prof": {
+			"id": 9,
+			"name": "Yaroslav"
+		}
+	},
+	{
+		"prof": {
+			"id": 10,
+			"name": "Taranuha"
+		}
+	},{
+		"prof": {
+			"id": 11,
+			"name": "Kulyabko"
+		}
+	},
+	{
+		"prof": {
+			"id": 12,
+			"name": "Omelchuk"
+		}
+	},
+	{
+		"prof": {
+			"id": 13,
+			"name": "Alex"
+		}
+	},
+	{
+		"course": {
+			"id": 1,
+			"name": "Programming"
+		}
+	},
+	{
+		"course": {
+			"id": 2,
+			"name": "Introduction to Computer Architecture"
+		}
+	},
+	{
+		"course": {
+			"id": 3,
+			"name": "Business Applications"
+		}
+	},
+	{
+		"course": {
+			"id": 4,
+			"name": "English"
+		}
+	},
+	{
+		"course": {
+			"id": 5,
+			"name": "Discrete Mathematic I"
+		}
+	},
+	{
+		"course": {
+			"id": 6,
+			"name": "Linear Algebra"
+		}
+	},
+	{
+		"course": {
+			"id": 7,
+			"name": "Introduction to Information Technology I"
+		}
+	},
+	{
+		"course": {
+			"id": 8,
+			"name": "Basics of IT Project Management"
+		}
+	},
+	{
+		"room": {
+			"name": "201",
+			"lab": true,
+			"size": 24
+		}
+	},
+	{
+		"room": {
+			"name": "37",
+			"lab": false,
+			"size": 60
+		}
+	},
+	{
+		"group": {
+			"id": 1,
+			"name": "TTP-41",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 2,
+			"name": "TTP-42",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 3,
+			"name": "TK-41",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 4,
+			"name": "MI-41",
+			"size": 17
+		}
+	},
+	{
+		"class": {
+			"professor": 1,
+			"course": 1,
+			"duration": 1,
+			"groups": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 1,
+			"course": 1,
+			"duration": 1,
+			"groups": [ 3, 4 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 9,
+			"course": 1,
+			"duration": 1,
+			"group": 1,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 9,
+			"course": 1,
+			"duration": 1,
+			"group": 2,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 9,
+			"course": 1,
+			"duration": 1,
+			"group": 3,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 9,
+			"course": 1,
+			"duration": 1,
+			"group": 4,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 2,
+			"course": 2,
+			"duration": 1,
+			"group": [ 3, 4 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 2,
+			"course": 2,
+			"duration": 1,
+			"group": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 1,
+			"group": 1,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 1,
+			"group": 2,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 1,
+			"group": 3,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 1,
+			"group": 4,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 4,
+			"course": 4,
+			"duration": 1,
+			"group": [ 3, 4 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 4,
+			"course": 4,
+			"duration": 1,
+			"group": [ 3, 4 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 4,
+			"course": 4,
+			"duration": 1,
+			"group": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 4,
+			"course": 4,
+			"duration": 1,
+			"group": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 5,
+			"course": 6,
+			"duration": 1,
+			"group": [ 1, 2, 3 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 5,
+			"course": 6,
+			"duration": 1,
+			"group": [ 1, 2, 3 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 7,
+			"course": 5,
+			"duration": 1,
+			"group": [ 1, 2, 3 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 7,
+			"course": 5,
+			"duration": 1,
+			"group": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 10,
+			"course": 5,
+			"duration": 1,
+			"group": 3
+		}
+	},
+	{
+		"class": {
+			"professor": 8,
+			"course": 3,
+			"duration": 1,
+			"group": 2
+		}
+	},
+	{
+		"class": {
+			"professor": 8,
+			"course": 3,
+			"duration": 1,
+			"group": 3
+		}
+	},
+	{
+		"class": {
+			"professor": 12,
+			"course": 3,
+			"duration": 1,
+			"group": 1
+		}
+	},
+	{
+		"class": {
+			"professor": 12,
+			"course": 3,
+			"duration": 1,
+			"group": 4
+		}
+	},
+	{
+		"class": {
+			"professor": 11,
+			"course": 7,
+			"duration": 1,
+			"group": 4
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 1,
+			"group": 2
+		}
+	},
+	{
+		"class": {
+			"professor": 11,
+			"course": 7,
+			"duration": 1,
+			"group": 2
+		}
+	},
+	{
+		"class": {
+			"professor": 13,
+			"course": 8,
+			"duration": 1,
+			"group": 4
+		}
+	}
+]

@@ -1,0 +1,13 @@
+GroupName,CourseName,Lecture Hours,Lab Hours,Split Required
+TTP-41,Programming,30,15,No
+TTP-41,Discrete Math I,20,10,Yes
+TTP-41,English,25,0,No
+TTP-42,Programming,30,15,No
+TTP-42,Discrete Math I,20,10,Yes
+TTP-42,English,25,0,No
+TK-41,Programming,30,15,No
+TK-41,Discrete Math I,20,10,Yes
+TK-41,English,25,0,No
+MI-41,Programming,30,15,No
+MI-41,Discrete Math I,20,10,Yes
+MI-41,English,25,0,No
